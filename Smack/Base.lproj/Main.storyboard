@@ -149,6 +149,7 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="O5b-f2-Zmo" firstAttribute="centerY" secondItem="OKQ-HH-V6B" secondAttribute="centerY" id="BvW-Bt-8i5"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="O5b-f2-Zmo" secondAttribute="trailingMargin" id="nx3-Em-IQH"/>
                                                 <constraint firstItem="O5b-f2-Zmo" firstAttribute="leading" secondItem="OKQ-HH-V6B" secondAttribute="leadingMargin" constant="20" id="t3K-35-8sf"/>
                                             </constraints>
                                         </tableViewCellContentView>
@@ -165,7 +166,10 @@
                             <constraint firstItem="mVX-y8-cTR" firstAttribute="top" secondItem="hGW-HY-GRH" secondAttribute="bottom" constant="20" id="J02-au-EHI"/>
                             <constraint firstItem="nM0-TK-1Eu" firstAttribute="top" secondItem="b08-Y9-HBZ" secondAttribute="bottom" constant="20" id="MGz-In-hp5"/>
                             <constraint firstItem="lap-Tc-hqW" firstAttribute="bottom" secondItem="Saz-m0-zaZ" secondAttribute="bottom" constant="20" id="NVt-LX-Ozb"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="b08-Y9-HBZ" secondAttribute="trailing" constant="20" symbolic="YES" id="aIW-I5-R3C"/>
                             <constraint firstItem="bTI-65-RLv" firstAttribute="centerY" secondItem="Saz-m0-zaZ" secondAttribute="centerY" id="ahe-Yi-Gvu"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="nM0-TK-1Eu" secondAttribute="trailing" constant="20" symbolic="YES" id="bAC-Kc-yfZ"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="bTI-65-RLv" secondAttribute="trailing" constant="20" symbolic="YES" id="bVL-xl-R3t"/>
                             <constraint firstItem="b08-Y9-HBZ" firstAttribute="top" secondItem="lap-Tc-hqW" secondAttribute="top" constant="24" id="cFJ-4V-YRz"/>
                             <constraint firstItem="bTI-65-RLv" firstAttribute="leading" secondItem="Saz-m0-zaZ" secondAttribute="trailing" constant="20" id="ieq-vB-Hqa"/>
                             <constraint firstItem="lap-Tc-hqW" firstAttribute="trailing" secondItem="hGW-HY-GRH" secondAttribute="trailing" constant="82" id="kkO-qY-ucK"/>
@@ -217,7 +221,7 @@
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ho2-OD-Zde">
                                         <rect key="frame" x="0.0" y="0.0" width="250" height="20"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="250" id="gKE-ZL-tUo"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="gKE-ZL-tUo"/>
                                         </constraints>
                                         <color key="textColor" red="0.25882352939999997" green="0.3294117647" blue="0.72549019609999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
@@ -234,7 +238,7 @@
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cTm-jO-MiI">
                                         <rect key="frame" x="0.0" y="50" width="250" height="20"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="250" id="ZJS-5k-Sz9"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="ZJS-5k-Sz9"/>
                                         </constraints>
                                         <color key="textColor" red="0.25882352939999997" green="0.3294117647" blue="0.72549019609999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
@@ -275,10 +279,10 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jIy-Fj-Adc">
-                                <rect key="frame" x="62" y="356" width="251" height="30"/>
+                                <rect key="frame" x="62.5" y="356" width="250" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="aoz-df-SvS"/>
-                                    <constraint firstAttribute="width" constant="251" id="qXj-aw-lqc"/>
+                                    <constraint firstAttribute="width" constant="250" id="qXj-aw-lqc"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
                                 <state key="normal" title="Don't have an account? Sign up here">
