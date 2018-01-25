@@ -11,7 +11,7 @@ import UIKit
 class CreateAccountVC: UIViewController {
 
     
-    
+    // Outlets
     @IBOutlet weak var passTxt: UITextField!
     @IBOutlet weak var emailTxt: UITextField!
     @IBOutlet weak var usernametxt: UITextField!
