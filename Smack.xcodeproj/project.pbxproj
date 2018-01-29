@@ -21,6 +21,7 @@
 		CFA2F0FC2003D62B006B033A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA2F0FB2003D62B006B033A /* Constants.swift */; };
 		CFA2F0FE2003DACE006B033A /* loginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA2F0FD2003DACE006B033A /* loginVC.swift */; };
 		CFA2F1002003DE59006B033A /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA2F0FF2003DE59006B033A /* CreateAccountVC.swift */; };
+		CFF8B0F1201A83680030F2F5 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF8B0F0201A83680030F2F5 /* UserDataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		CFA2F0FB2003D62B006B033A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		CFA2F0FD2003DACE006B033A /* loginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginVC.swift; sourceTree = "<group>"; };
 		CFA2F0FF2003DE59006B033A /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
+		CFF8B0F0201A83680030F2F5 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				CF137365200CFBF6008215FE /* AuthService.swift */,
+				CFF8B0F0201A83680030F2F5 /* UserDataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				CFA2F0F32003A185006B033A /* ChannelVC.swift in Sources */,
 				CF35BB322011386400B2E9DA /* RoundedButton.swift in Sources */,
 				CFA2F0F12003A175006B033A /* ChatVC.swift in Sources */,
+				CFF8B0F1201A83680030F2F5 /* UserDataService.swift in Sources */,
 				CFA2F1002003DE59006B033A /* CreateAccountVC.swift in Sources */,
 				CF137366200CFBF6008215FE /* AuthService.swift in Sources */,
 				CFA2F0F92003B7B2006B033A /* GradientView.swift in Sources */,
